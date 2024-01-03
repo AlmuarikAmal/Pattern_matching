@@ -40,5 +40,5 @@ Thus, we save a total of six comparisons! Examples of how to construct a shift-a
 - Part 3: Aho-Corasick algorithm
 
 The expected output is:
-• The pattern exist in case the pattern shows up in your data; otherwise, it The pattern
+The pattern exist in case the pattern shows up in your data; otherwise, it The pattern
 does not exist.
