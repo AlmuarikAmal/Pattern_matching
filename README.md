@@ -33,9 +33,9 @@ While using smart shift, we can determine that if a mismatch happened when compa
 - P= abcxabcde
 
 Thus, we save a total of six comparisons! Examples of how to construct a shift-amount:
-• For the pattern “CCC”, shift-amount is [0, 1, 2]
-• For the pattern “ACG”, shift-amount is [0, 0, 0]
-• For the pattern “AAGAACAAA”, shift-amount is [0, 1, 0, 1, 2, 0, 1, 2,3]
+- For the pattern “CCC”, shift-amount is [0, 1, 2]
+- For the pattern “ACG”, shift-amount is [0, 0, 0]
+- For the pattern “AAGAACAAA”, shift-amount is [0, 1, 0, 1, 2, 0, 1, 2,3]
 
 - Part 3: Aho-Corasick algorithm
 
