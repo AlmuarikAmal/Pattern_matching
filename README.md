@@ -1,11 +1,13 @@
 # Pattern_matching
 ## Bioinformatics
 
-Bioinformatics is the management and analysis of biological dataset information. DNA pattern matching is an essential component of bioinformatics, and the challenge of locating subsequences inside a large DNA sequence has several applications in computational biology. A pattern (keyword) is an ordered sequence of symbols. Where symbols of the pattern and the searched text are chosen from a predetermined finite set, called an alphabet (Σ). In general alphabet can be any finite set of symbols/letters.
+Bioinformatics is the management and analysis of biological dataset information. DNA pattern matching is an essential component of bioinformatics, and the challenge of locating subsequences inside a large DNA sequence has several applications in computational biology. A pattern (keyword) is an ordered sequence of symbols. Where symbols of the pattern and the searched text are chosen from a predetermined finite set, called an alphabet (Σ). In general alphabet can be any finite set of symbols/letters. 
+
 In bioinformatics:
-• DNA alphabet Σ = {A,C,G,T},
-• RNA alphabet Σ = {A,C,G,U};
-• protein alphabet Σ = {A, R, N, ...V }(20 amino acids).
+- DNA alphabet Σ = {A,C,G,T},
+-  RNA alphabet Σ = {A,C,G,U};
+-  protein alphabet Σ = {A, R, N, ...V }(20 amino acids).
+
 The patterns in the strands of DNA, RNA, and proteins have important biological meanings, e.g., they are promoters, enhancers, operators, genes, introns, exons, etc.
 
 - Part 1: Brute Force
