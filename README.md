@@ -20,17 +20,17 @@ How to enhance it? Try smart shift.
 By preprocessing the pattern and building an auxiliary array, shift-amount, if we discover a mismatch (after some matches), we are already aware of some of the characters in the text of the following window. We use this knowledge to prevent matching the characters that we know already.
 
 Consider pattern (P)=abcxabcde, and we are looking in long string S: 
-S= ................abcxabcdv.................
-P= abcxabcde
+- S= ................abcxabcdv.................
+- P= abcxabcde
 
 The mismatch occurs when comparing e with v. BF will shift by 1 so 
-S= ................abcxabcdv.................
-P= abcxabcde
+- S= ................abcxabcdv.................
+- P= abcxabcde
 
 While using smart shift, we can determine that if a mismatch happened when comparing pat- tern[8] with S[i], we can shift pattern by four chars -according to shift-amount-, and compare pattern[4] with S[i], without missing any possible matches.
 
-S= ................abcxabcdv.................
-P= abcxabcde
+- S= ................abcxabcdv.................
+- P= abcxabcde
 
 Thus, we save a total of six comparisons! Examples of how to construct a shift-amount:
 • For the pattern “CCC”, shift-amount is [0, 1, 2]
